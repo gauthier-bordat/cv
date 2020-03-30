@@ -1,0 +1,11 @@
+body{
+    background: #112c38;
+    display: flex;
+    margin: auto;
+    width: auto;
+}
+#corp_du_CV{
+    display: flex;
+    flex-wrap: wrap ;
+}
+

@@ -1,0 +1,44 @@
+header{
+    background: #112830;
+    width: 100%;
+}
+
+#en_tete{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.element_header:nth-child(1){
+    flex: 1;
+}
+
+header img{
+    height: 100%;
+    width: 100%;
+}
+
+.element_header:nth-child(2){
+    color: antiquewhite;
+    flex: 3;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    margin: auto;
+    border-radius: 10px 5px 10px 5px;
+}
+
+.element_header:nth-child(3){
+    height: 90%;
+    background: #3f4a66;
+    flex: 1;
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    margin: auto;
+    border-radius: 10px 5px 10px 5px;
+    margin-right: 10px;
+
+}

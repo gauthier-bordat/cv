@@ -1,0 +1,39 @@
+#banderole img{
+    width: 100%;
+}
+
+.corp:nth-child(3){
+    flex: 2 80%;
+}
+
+.corp_text:nth-child(1){
+    transition: 0.5s;
+}
+.corp_text:nth-child(2){
+    flex: 83%;
+    justify-content: flex-end;
+}
+
+.corp_text:nth-child(1) img
+{
+    transition: 0.5s;
+    filter: brightness(50%);
+    -webkit-filter: brightness(50%);
+    -moz-filter: brightness(50%);
+    -o-filter: brightness(50%);
+    -ms-filter: brightness(50%);
+}
+.corp_text:nth-child(1) img:hover
+{
+    filter: brightness(100%);
+    -webkit-filter: brightness(100%);
+    -moz-filter: brightness(100%);
+    -o-filter: brightness(100%);
+    -ms-filter: brightness(100%);
+}
+
+.corp_text:nth-child(2){
+    color: antiquewhite;
+    padding: 15px;
+    text-align: justify;
+}

@@ -1,0 +1,10 @@
+git status 
+git add (nom du document)
+git commit -m "message"
+git log 
+git branch
+git branch nouvelle-branche
+git checkout la-ou-on-veut-aller
+gti remote add origin git@github.com:gauthier-bordat/project.git
+git push origin master
+git pull origin matser
